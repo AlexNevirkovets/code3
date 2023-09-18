@@ -1,0 +1,24 @@
+<article id="author-suprun" class="author">
+    <div class="name">
+        <p>Антон Супрун</p>
+    </div>
+
+    <div class="position">
+        <p>Викладач курсу Фронтенд</p>
+    </div>
+</article>
+*/
+
+
+article .name ~ .position p { /* 0-2-2 */
+    font-size: 1.1em;
+    background: #cfcfcf;
+}
+
+.author > div p { /* 0-1-2 */
+    font-size: 14px;
+}
+
+#author-suprun .name p { /* 1-1-1 */ (найвищий пріорітет)
+    font-size: 1.5em;
+}
